@@ -133,6 +133,6 @@ gulp.task('watch', function() {
   gulp.watch('css/*.css', notifyLiveReload);
 });
 
-gulp.task('default', ['styles', 'express', 'livereload', 'watch'], function() {
+gulp.task('default', ['styles', 'livereload', 'watch'], function() {
 
 });
